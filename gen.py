@@ -45,7 +45,7 @@ def Get_Article_CGTN(CGTN_Aricle_Url):
 
     print('<h1>',CGTN_Article_Titlle,'</h1>',file=fp)
     print('<hr>',file=fp)
-    print("<a href=\"",CGTN_Aricle_Url,"\">",CGTN_Aricle_Url,"</a>","\n\n",file=fp)
+    print("<a href=\"",CGTN_Aricle_Url,"\">","原文链接","</a>","\n\n",file=fp)
 
     print('<h1>',CGTN_Article_Titlle,'</h1>',file=cu)
     print('<hr>',file=cu)
