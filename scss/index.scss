@@ -7,6 +7,9 @@
     .no-print {
         visibility: hidden;
     }
+    .print {
+        font-size: 1.4em;
+    }
 
 }
 body {
@@ -15,11 +18,16 @@ body {
     background-attachment: fixed;
 
 }
+
+br {
+    margin-top: 1%;
+    margin-bottom: 3%
+}
 hr {
     width: 90%;
 	border-top: 1px dashed #000;
-    margin-top: 5%;
-    margin-bottom: 5%
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 h1 {
     margin-top: 50px;
