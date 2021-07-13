@@ -5,7 +5,7 @@
 
 @media print {
     .no-print {
-        display: none;
+        visibility: hidden;
     }
     .print {
         font-size: 1.4em;
